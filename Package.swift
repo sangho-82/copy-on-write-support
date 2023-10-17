@@ -18,5 +18,6 @@ let package = Package(
             name: "CopyOnWriteSupport",
             path: "./CopyOnWriteSupport"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
