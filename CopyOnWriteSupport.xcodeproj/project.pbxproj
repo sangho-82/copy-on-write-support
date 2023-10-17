@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10E48062ADE742900DEF7CF /* ShadowValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E48052ADE742900DEF7CF /* ShadowValue.swift */; };
 		F19F65032ADE716E003956CE /* CopyOnWriteSupport.docc in Sources */ = {isa = PBXBuildFile; fileRef = F19F65022ADE716E003956CE /* CopyOnWriteSupport.docc */; };
 		F19F65042ADE716E003956CE /* CopyOnWriteSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F19F65012ADE716E003956CE /* CopyOnWriteSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10E48052ADE742900DEF7CF /* ShadowValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowValue.swift; sourceTree = "<group>"; };
 		F19F64FE2ADE716E003956CE /* CopyOnWriteSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CopyOnWriteSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19F65012ADE716E003956CE /* CopyOnWriteSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyOnWriteSupport.h; sourceTree = "<group>"; };
 		F19F65022ADE716E003956CE /* CopyOnWriteSupport.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CopyOnWriteSupport.docc; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				F19F65012ADE716E003956CE /* CopyOnWriteSupport.h */,
 				F19F65022ADE716E003956CE /* CopyOnWriteSupport.docc */,
+				F10E48052ADE742900DEF7CF /* ShadowValue.swift */,
 			);
 			path = CopyOnWriteSupport;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19F65032ADE716E003956CE /* CopyOnWriteSupport.docc in Sources */,
+				F10E48062ADE742900DEF7CF /* ShadowValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
