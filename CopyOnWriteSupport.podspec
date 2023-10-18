@@ -11,8 +11,7 @@ ShadowValue container is helpful to wrap your value type that is not supported C
   s.author           = { 'SangHo Cha' => 'ipnetwork82@gmail.com' }
   s.source           = { :git => 'https://github.com/sangho-82/copy-on-write-support.git', :tag => s.version.to_s }
 
-  s.header_dir       = "CopyOnWriteSupport"
-  s.source_files     = 'CopyOnWriteSupport/**/*.{swift.h}'
+  s.source_files     = 'CopyOnWriteSupport/**/*.{swift,h}'
   
   s.ios.deployment_target     = '12.0'
   s.osx.deployment_target     = '10.13'
